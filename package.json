@@ -1,0 +1,19 @@
+{
+  "name": "react-ts-starter",
+  "version": "1.0.0",
+  "description": "Starter repository with ReactJS and TypeScript project",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giltroymeren/react-ts-starter.git#main"
+  },
+  "author": "Troy Meren <giltroymeren@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giltroymeren/react-ts-starter/issues"
+  },
+  "homepage": "https://github.com/giltroymeren/react-ts-starter/tree/main#readme"
+}
