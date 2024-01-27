@@ -4,7 +4,10 @@
   "description": "Starter repository with ReactJS and TypeScript project",
   "main": "index.ts",
   "scripts": {
-    "lint": "eslint",
+    "lint": "npx eslint src test",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier src test --check",
+    "prettier:fix": "npm run prettier -- --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +21,11 @@
   },
   "homepage": "https://github.com/giltroymeren/react-ts-starter/tree/main#readme",
   "devDependencies": {
-    "eslint": "8.56.0"
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "3.2.4",
+    "tslint-config-prettier": "^1.18.0"
   }
 }
