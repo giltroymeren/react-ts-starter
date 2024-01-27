@@ -4,6 +4,7 @@
   "description": "Starter repository with ReactJS and TypeScript project",
   "main": "index.ts",
   "scripts": {
+    "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/giltroymeren/react-ts-starter/issues"
   },
-  "homepage": "https://github.com/giltroymeren/react-ts-starter/tree/main#readme"
+  "homepage": "https://github.com/giltroymeren/react-ts-starter/tree/main#readme",
+  "devDependencies": {
+    "eslint": "8.56.0"
+  }
 }
