@@ -8,6 +8,12 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   plugins: [new HtmlWebpackPlugin({ title: "react-ts-app" })],
+  devServer: {
+    historyApiFallback: true,
+    port: 4000,
+    hot: false,
+    liveReload: true,
+  },
   module: {
     rules: [
       {
