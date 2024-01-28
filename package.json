@@ -10,7 +10,9 @@
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier src test --check",
     "prettier:fix": "npm run prettier -- --write",
-    "cypress:test": "cypress open"
+    "open:cypress": "cypress open",
+    "test:jest": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
+    "@testing-library/jest-dom": "^6.3.0",
+    "@testing-library/react": "^14.1.2",
     "@types/node": "^20.11.9",
     "@types/webpack": "^5.28.5",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
@@ -38,6 +42,8 @@
     "eslint-plugin-react": "^7.33.2",
     "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "less": "^4.2.0",
     "less-loader": "^12.1.0",
     "prettier": "3.2.4",
