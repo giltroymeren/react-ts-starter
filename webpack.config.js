@@ -7,7 +7,11 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
-  plugins: [new HtmlWebpackPlugin({ title: "react-ts-app" })],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "public/index.html",
+    }),
+  ],
   devServer: {
     historyApiFallback: true,
     port: 4000,
