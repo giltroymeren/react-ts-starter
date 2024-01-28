@@ -23,7 +23,11 @@
   "homepage": "https://github.com/giltroymeren/react-ts-starter/tree/main#readme",
   "devDependencies": {
     "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/node": "^20.11.9",
+    "@types/webpack": "^5.28.5",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "babel-loader": "^9.1.3",
@@ -36,8 +40,11 @@
     "less-loader": "^12.1.0",
     "prettier": "3.2.4",
     "sass-loader": "^14.0.0",
+    "source-map-loader": "^5.0.0",
     "style-loader": "^3.3.4",
+    "ts-node": "^10.9.2",
     "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.3.3",
     "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4"
   },
